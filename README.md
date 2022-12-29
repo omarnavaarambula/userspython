@@ -189,9 +189,13 @@ serializer.py
 _________________
 
 runnig app si no corre con docker
+
 1.-python manage.py makemigrations 
+
 2.-python manage.py migrate 
+
 3.-python manage.py runserver 0.0.0.0:8000
+
 
 
 
