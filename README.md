@@ -1,5 +1,7 @@
 # Django, Pandas, Flask, JET
 
+## Models.py -> Serializers.py -> Views.py -> Urls.py
+
 crear archivo .txt
 requirements.txt
 con las dependencias
@@ -231,23 +233,27 @@ _____________________________
 
 
 ## 1.- crea usuario name,email y password (POST)
+/v1/register
 
 ![alt text](https://github.com/omarnavaarambula/userspython/blob/main/img/1.createUserPost.png)
 
 ## 2.- hace login al usuario con email y password(desifrado en JWT)(POST)
+/v1/login
 
 ![alt text](https://github.com/omarnavaarambula/userspython/blob/main/img/2.loginusuarioPost.png)
 
 ## 3.- se ve la informacion del usuario con el password desifrado (GET)
+/v1/user
 
 ![alt text](https://github.com/omarnavaarambula/userspython/blob/main/img/3.usuarioGet.png)
 
 ## 4.- logout de usuario, email y password (POST)
+/v1/logout
 
 ![alt text](https://github.com/omarnavaarambula/userspython/blob/main/img/4.logoutPost.png)
 
 ## 5.- confirmacion de que el usuario realizo logout (GET)
-
+/v1/user
 ![alt text](https://github.com/omarnavaarambula/userspython/blob/main/img/5.confirmationLogoutuser.png)
 
 
