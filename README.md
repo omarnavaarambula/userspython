@@ -6,6 +6,7 @@ con las dependencias
 
 
 Django==3.2
+
 djangorestframework==3.12.4
 
 _________________________________
