@@ -1,4 +1,4 @@
-# Django, Pandas, Flask, JET
+# Django, Pandas, Flask, JWT
 
 ## Models.py -> Serializers.py -> Views.py -> Urls.py
 
