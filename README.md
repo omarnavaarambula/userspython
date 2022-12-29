@@ -9,6 +9,31 @@ Django==3.2
 
 djangorestframework==3.12.4
 
+certifi==2022.9.24
+
+charset-normalizer==2.1.1
+
+click==8.1.3
+
+Flask==2.1.3
+
+Flask-API==3.0.post1
+
+idna==3.4
+
+importlib-metadata==4.12.0
+
+itsdangerous==2.1.2
+
+Jinja2==3.1.2
+
+requests==2.28.1
+
+urllib3==1.26.13
+
+
+PyJWT==1.7.1
+
 _________________________________
 
 crear el venv
@@ -33,6 +58,9 @@ ________________________________________
 
 entrar a carpeta app
 cd app
+
+
+_______
 python manage.py startapp core
 
 que tiene core
@@ -197,7 +225,28 @@ runnig app si no corre con docker
 3.-python manage.py runserver 0.0.0.0:8000
 
 
-
-
 _____________________________
+
+
+
+
+# 1.- crea usuario name,email y password (POST)
+
+https://github.com/omarnavaarambula/userspython/blob/main/img/1.createUserPost.png
+
+# 2.- hace login al usuario con email y password(POST)
+
+https://github.com/omarnavaarambula/userspython/blob/main/img/2.loginusuarioPost.png
+
+# 3.- se ve la informacion del usuario con el password desifrado (GET)
+
+https://github.com/omarnavaarambula/userspython/blob/main/img/3.usuarioGet.png
+
+# 4.- logout de usuario, email y password (POST)
+
+https://github.com/omarnavaarambula/userspython/blob/main/img/4.logoutPost.png
+
+# 5.- confirmacion de que el usuario realizo logout (GET)
+https://github.com/omarnavaarambula/userspython/blob/main/img/5.confirmationLogoutuser.png
+
 
