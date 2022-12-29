@@ -232,7 +232,7 @@ _____________________________
 
 ## 1.- crea usuario name,email y password (POST)
 
-https://github.com/omarnavaarambula/userspython/blob/main/img/1.createUserPost.png
+![alt text](https://github.com/omarnavaarambula/userspython/blob/main/img/1.createUserPost.png)
 
 ## 2.- hace login al usuario con email y password(POST)
 
