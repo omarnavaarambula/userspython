@@ -254,6 +254,7 @@ _____________________________
 
 ## 5.- confirmacion de que el usuario realizo logout (GET)
 /v1/user
+
 ![alt text](https://github.com/omarnavaarambula/userspython/blob/main/img/5.confirmationLogoutuser.png)
 
 
