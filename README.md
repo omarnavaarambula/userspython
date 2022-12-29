@@ -1,4 +1,4 @@
-# Django, Pandas, Flask, JWT
+# Django, Flask, JWT
 
 ## Models.py -> Serializers.py -> Views.py -> Urls.py
 
@@ -170,25 +170,7 @@ ________
 ______
 _
 
-para el entregable ejecutar app.py
-instalar Flaks,pandas
-
-pip install flask
-pip install pandas
-
-
-____________
-
-test
-
-importar pandas
-
-pip install pytest
-
-run test
-
-pytest -v
-
+_______________________
 en settings.py esta en app/app
 agregar al final
 
